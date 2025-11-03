@@ -166,21 +166,28 @@ body {
   align-items: center;
 }
 
-.footer-social-links {
+.footer-social-links,
+.contato-social-links {
   margin-bottom: 20px;
   display: flex;
   gap: 30px;
 }
 
-.footer-social-links a {
+.footer-social-links a,
+.contato-social-links a {
   color: var(--branco);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer-social-links a i {
+.footer-social-links a i,
+.contato-social-links a i {
   font-size: 2.2em;
   display: block;
+}
+
+.contato-social-links a:hover {
+  color: var(--roxo-profundo);
 }
 
 .footer-social-links a:hover {
